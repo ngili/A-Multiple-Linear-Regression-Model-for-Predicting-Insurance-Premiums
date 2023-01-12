@@ -1,8 +1,6 @@
 # A Multiple Linear Regression Model for Predicting Insurance Expenses
 ![insurance](https://user-images.githubusercontent.com/94622826/212007150-ae098f26-5399-4f86-b4c7-7632c800ee2b.png)
 
-# Prediction Model for Computing Insurance Premiums
-
 ## Overview
 
 This project aims to predict insurance premiums for policyholders using a multiple linear regression model. The dataset used for this project was obtained from Kaggle and contains information on policyholder characteristics such as age, BMI, sex, number of children, smoker status, and region.
