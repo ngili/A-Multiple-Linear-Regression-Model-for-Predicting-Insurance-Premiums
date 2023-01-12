@@ -60,10 +60,12 @@ The data was cleaned and pre-processed to ensure that it was in a usable form. T
 ## Modeling
 
 Multiple linear regression was used to build the predictive model. In summary, the data modeling process for insurance premium prediction using Linear regression involved checking the correlation between the predictor and target variables, which resulted in weak correlations for all predictor variables. Binary encoding was used to convert the categorical data into a form that can be used by the Ordinary Least Squares (OLS) model. The Least Squares Method (LSM) was used to fit the model and it was found to be statistically significant with a probability of F-statistic below 0.05. The model was able to explain 74.8% of the variation in the insurance premium and had a Mean Absolute Percentage Error (MAPE) of 42.26%. However, it was also found that there existed a non-linear relationship between the predictors and the response variable and there was some evidence of heteroskedasticity as the residuals displayed a funnel-shape  
+A second model was fitted to to deal with the non-linear relationships between the predictor and response. The target, age and BMI was log transformed and fitted using OLS where the model's Adjusted R-squared increase to 76 %. The MAPE also reduced significantly to 23 %.
+The final model was fitted to further refine the non-linear relationships. After log-transforming the target and including interaction terms for between smoker, age and BMI, the final model improved further to record an R-squared of 82%. It also recorded a MAPE of 10 %
 
 ## Evaluation
 
-The performance of the predictive model was evaluated using several metrics including R-squared, Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE). The model was found to have an R-squared value of 0.765, a MAE of 1.33 and a MAPE of 12.8%.    
+The performance of the predictive model was evaluated using several metrics including R-squared and Mean Absolute Percentage Error (MAPE). The final model was found to have an R-squared value of 0.821, a MAPE of 10%.    
 
 ## Conclusion
 
