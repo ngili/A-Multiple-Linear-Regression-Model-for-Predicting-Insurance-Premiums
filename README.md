@@ -1,4 +1,4 @@
-# A Multiple Linear Regression Model for Predicting Insurance Expenses
+# A Multiple Linear Regression Model for Predicting Insurance Premium
 ![insurance](https://user-images.githubusercontent.com/94622826/212007150-ae098f26-5399-4f86-b4c7-7632c800ee2b.png)
 
 ## Overview
