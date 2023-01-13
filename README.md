@@ -67,6 +67,22 @@ The final model was fitted to further refine the non-linear relationships. After
 
 The performance of the predictive model was evaluated using several metrics including R-squared and Mean Absolute Percentage Error (MAPE). The final model was found to have an R-squared value of 0.821, a MAPE of 10%.    
 
-## Conclusion
+## Recommendations
+1.The company should consider implementing a higher premium for smokers, as the data indicates that they have a higher expected expense.
+
+2.The company should also take into account the number of children when setting premiums, as this variable had a positive correlation with expenses.
+
+3.The company can also consider offering discounted premiums for policyholders from the SouthWest and Northwest regions, as they had lower expected expenses compared to those from the SouthEast region.
+
+4.The company should also consider collecting more data on other factors such as medical conditions, previous claims, lifestyle, and occupation to improve the accuracy of their pricing model.
+
+5.The company can also consider offering discounts for individuals who maintain a healthy BMI, as this variable was negatively correlated with expenses.
+
+6.The company should also consider the age of a policyholder when setting premiums, as this variable had a positive correlation with expenses.
+
+7.The company should also consider the policyholders sex when setting premiums, as this variable had a positive correlation with expenses for males.
+
+8.Finally, the company should consider using the developed model as a guide for pricing premiums, as it had a low MAPE of 10% which indicates that it is a good model for predicting expenses.
+
 
 The model developed in this project can accurately predict insurance premiums for policyholders based on their characteristics. Insurance companies can use this model to manage risk and ensure financial stability by setting premiums that are aligned with the level of risk. Potential areas for improvement include further feature engineering and the use of other predictive modeling techniques.  
